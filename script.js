@@ -1,28 +1,5 @@
 const pen = document.querySelector(".pen");
 
-// window.addEventListener("scroll", function () {
-//   const scrollY = window.scrollY;
-//   const targetX = 930;
-//   const targetY = 660;
-
-//   // You can control how much scroll is required to reach the target position
-//   const maxScroll = 500; // Adjust based on your needs
-
-//   // Calculate how much the pen should move
-//   const x = (targetX * scrollY) / maxScroll;
-//   const y = (targetY * scrollY) / maxScroll;
-
-//   // Ensure the pen stops at (938, 664)
-//   if (x > targetX) x = targetX;
-//   if (y > targetY) y = targetY;
-
-//   pen.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-// });
-
-// // window.addEventListener('mousemove', (event) => {
-// //     console.log(event.x, event.y);
-// // })
-
 window.addEventListener('scroll', function() {
     const scrollY = window.scrollY;
     const targetX = 930;
