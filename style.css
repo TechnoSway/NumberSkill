@@ -37,6 +37,35 @@ body {
   margin-top: 50px;
 }
 
+.get-access {
+  margin-top: 50px;
+}
+
+.girl-image {
+  height: 500px;
+}
+
+.get-access-button {
+  border-radius: 5px;
+  width: 500px;
+  height: 70px;
+  border: none;
+  color: white;
+  background-color: #1cba4c;
+  box-shadow: 0 5px 0 0 #178c24;
+}
+
+@media (max-width: 1200px) {
+  .girl-image {
+    height: 400px;
+  }
+  
+  .get-access-button {
+    width: 300px;
+    height: 60px;
+  }
+}
+
 /* .pen {
   position: absolute;
   top: 250px;
