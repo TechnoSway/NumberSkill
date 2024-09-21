@@ -23,6 +23,16 @@ body {
   object-fit: contain;
 }
 
+.course-info {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.custom-course-info {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 /* .pen {
   position: absolute;
   top: 250px;
