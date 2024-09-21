@@ -1,5 +1,5 @@
 body {
-  height: 3000px;
+  height: 10000px;
 }
 
 .hero {
@@ -31,6 +31,10 @@ body {
 .custom-course-info {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.comparison {
+  margin-top: 50px;
 }
 
 /* .pen {
