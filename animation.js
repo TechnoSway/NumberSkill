@@ -26,7 +26,8 @@ window.addEventListener("scroll", function () {
   // Move The Ball According To The Scroll Progress
   const x = startX + targetX * scrollProgress;
   const y = startY + targetY * scrollProgress;
+  const scale = 1 + scrollProgress; // `scale = 1 + (scrollProgress x 2)` For 3x Scaling
 
   // Apply The `translate3d` Transformation
-  ball.style.transform = `translate(${x}px, ${y}px)`;
+  ball.style.transform = `translate(${x}px, ${y}px) scale(${scale})`;
 });
