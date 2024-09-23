@@ -1,3 +1,24 @@
+.testimonial {
+  margin-top: 100px;
+}
+
+.testimonial-image {
+  height: 280px;
+}
+
+.principal {
+  margin-top: 100px;
+  background-color: #fafafa;
+}
+
+.principal-image {
+  width: 350px;
+}
+
+.act-now {
+  margin-top: 50px;
+}
+
 .hero {
   height: 800px;
 }
@@ -81,10 +102,3 @@
 .act-now {
   margin-top: 50px;
 }
-
-/* .pen {
-  position: absolute;
-  top: 250px;
-  left: 50px;
-  transition: transform 0.1s ease;
-} */
